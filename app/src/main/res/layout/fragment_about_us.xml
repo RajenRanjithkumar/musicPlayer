@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:clickable="true">
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        android:id="@+id/pic"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:background="@drawable/joey"
+        android:layout_margin="50dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:text="version 1.0"
+        android:id="@+id/version"
+        android:layout_below="@+id/pic"
+        android:layout_centerInParent="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:text="Developed by ranjithbing"
+        android:id="@+id/develope"
+        android:layout_below="@+id/version"
+        android:layout_centerInParent="true"
+        />
+
+
+</RelativeLayout>
